@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>wwwww</title>
+    <style>
+        .div1 {
+            width: 200px;
+            border: 2px solid #af8b8b;
+            padding: 15px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .div1 img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .div1 button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .yashirin {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 id="jami">Umumiy summa: 0</h2>
+    <button onclick="korsat('oziq')">Oziq-ovqat</button>
+    <button onclick="korsat('gadjet')">Gadjetlar</button>
+
+    <br><br>
+    <div id="oziq">
+        <div class="div1">
+            <img src="https://dostavo4ka.uz/upload-file/2021/05/05/4921/750x750-7bffb8d4-039d-4d80-bf98-5feb96961f95.jpg" alt="Meva">
+            <h3>Olma</h3>
+            <p>Narxi: 15000</p>
+            <button onclick="zakazQilish('Olma', 15000)">Zakaz qilish</button>
+        </div>
+        <div class="div1">
+            <img src="https://ir.ozone.ru/s3/multimedia-1-w/c1000/7459789208.jpg">
+            <h3>Shokolad</h3>
+            <p>Narxi: 20000</p>
+            <button onclick="zakazQilish('Shokolad', 20000)">Zakaz qilish</button>
+        </div>
+
+        <div class="div1">
+            <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=500" alt="Cola">
+            <h3>Cola</h3>
+            <p>Narxi: 12000</p>
+            <button onclick="zakazQilish('Cola', 12000)">Zakaz qilish</button>
+        </div>
+
+    </div>
+    <div id="gadjet" class="yashirin">
+    
+        <div class="div1">
+            <img src="https://r.iservices.nl/common/online_products/iphone-18-pro-max-1793357826.webp">
+            <h3>Telefon</h3>
+            <p>Narxi: 3500000</p>
+            <button onclick="zakazQilish('Telefon', 3500000)">Zakaz qilish</button>
+        </div>
+        
+        <div class="div1">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500" alt="Noutbuk">
+            <h3>Noutbuk</h3>
+            <p>Narxi: 8000000</p>
+            <button onclick="zakazQilish('Noutbuk', 8000000)">Zakaz qilish</button>
+        </div>
+
+        <div class="div1">
+            <img src="https://auz-shop.ru/wp-content/uploads/2025/05/feya-nadezhda-min.jpg">
+            <h3>Soat</h3>
+            <p>Narxi: 600000</p>
+            <button onclick="zakazQilish('Soat', 600000)">Zakaz qilish</button>
+        </div>
+
+    </div>
+
+    <script src="./kattaamaliyot.js"></script>
+</body>
+</html>
